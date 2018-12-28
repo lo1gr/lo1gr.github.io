@@ -1,7 +1,7 @@
 // Options
 const CLIENT ID='254375087411-sksklsde68f7c2jtkdfu1b8f5p4r0v2p.apps.googleusercontent.com';
 
-const DISCOVERY_DOCS = 'https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest';
+const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'];
 const SCOPES = 'https://www.googleapis.com/auth/youtube.readonly';
 
 const authorizeButton = document.getElementById('authorize-button');
